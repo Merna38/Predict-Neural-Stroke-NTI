@@ -1,19 +1,8 @@
 
-#🧠 Predict Neural Stroke - NTI Project
+# 🧠 Predict Neural Stroke - NTI Project
 
 ## 📋 Project Overview
 This project implements a neural network-based system for predicting stroke risk using machine learning techniques. The system analyzes medical data to provide early risk detection.
-
-## 🎯 Team Members
-- **Merna Medhat**
-- Mohammed Montaser
-- Ahmed Dahy  
-- Karen Medhat
-
-### 🎓 Supervisor
-**Eng. Aya Saleh**
-
-## 📁 Project Contents
 
 ### 📄 Main Files:
 - **`NeuralStroke - NTI.ipynb`** - Main Jupyter notebook with complete implementation
@@ -23,7 +12,8 @@ This project implements a neural network-based system for predicting stroke risk
 ## 🔧 Technologies Used
 - **Python** - Primary programming language
 - **Jupyter Notebook** - Interactive development environment
-- **Machine Learning** - Predictive modeling
+- **Machine Learning** - Predictive modeling ( GB, AdaBoost,Logistic Regression,SVM,Random Forest,NN)
+
 - **Neural Networks** - Deep learning implementation
 
 ## 🏥 Medical Context
@@ -44,18 +34,30 @@ The project addresses the critical need for early stroke detection by:
 ### Prerequisites
 - Python 3.8+
 - Jupyter Notebook
-- ML libraries (scikit-learn, TensorFlow, etc.)
+- ML libraries (Pandas, NumPy, Scikit-Learn, TensorFlow/Keras, Matplotlib,Plotly ,Seaborn, Streamlit.)
 
 ### Usage
 1. Open `NeuralStroke - NTI.ipynb` in Jupyter Notebook
 2. Run cells sequentially for execution
 3. Refer to PDF for project details and findings
 
-## 📈 Results Summary
-- **Highest Accuracy**: Gradient Boosting (94.7%)
-- **Best Precision**: SVM (96.8%)
-- **Neural Network**: 96.10% accuracy
-- **ROC Accuracy**: Logistic Regression (96.78%)
+## 🛠️ Technical Implementation
+• Process: Data cleaning → EDA → Feature selection (RFE) → Model training
+• Validation: ROC-AUC, Classification Reports, Confusion Matrices
+
+## 🏆 Results
+• Best model: 96.4% accuracy (Logistic Regression)
+• Neural Network: 95.9% accuracy with full interpretability
+
+## 🌐 Deployment
+Fully interactive web application with:
+• Real-time risk assessment
+• Comprehensive dashboard
+• Data explorer & model insights
+• Designed for both patients and clinicians
+
+## 🚀 Future Vision
+Mobile app integration, wearable compatibility, and real-time biometric data streams.   
 
 ## 📄 Documentation
 Detailed project explanation, methodology, and results are available in:
@@ -68,5 +70,3 @@ This is an NTI final project. For questions or collaboration, please contact the
 ## 📝 License
 This project is for educational purposes as part of NTI coursework.
 
----
-**⚠️ Disclaimer**: For research and educational purposes only. Not for clinical use.
